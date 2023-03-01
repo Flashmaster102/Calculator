@@ -1,0 +1,72 @@
+.container
+{
+	border:4px solid black;
+	padding:5px;
+	display: flex;
+	flex-wrap:wrap;
+	width:364px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	height:460px;
+	background-color:black;
+}
+
+.display
+{
+	width:360px;
+	height:60px;
+	font-size:48px;
+	font-weight:bold;
+	text-align:right;
+	border:3px solid blue;
+	margin:auto;
+	background-color:white;
+}
+
+.buttonContainer
+{
+	display:flex;
+}
+
+.numberContainer
+{
+	display:flex;
+}
+
+.opContainer
+{
+	display:flex;
+	flex-direction:column;
+}
+
+button
+{
+	width:85px;
+	padding:35px;
+	font-size:20px;
+	margin:2px;
+	margin-right:1px;
+}
+
+.number
+{
+	background-color:teal;
+}
+
+.operator
+{
+	background-color:yellow;
+}
+
+.clear,.equals
+{
+	background-color:orange;
+}
+
+sup
+{
+	font-size:28px;
+	padding:10px;
+	color:#DC143C;
+}
